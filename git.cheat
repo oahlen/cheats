@@ -2,3 +2,6 @@
 
 # Prune all local branches except main
 git branch | grep -v 'main' | xargs git branch -D
+
+# Create annotated tag
+git tag -a <tag> -m <tag>
