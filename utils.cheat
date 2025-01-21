@@ -1,0 +1,7 @@
+% Utility commands
+
+# Find your external IP adress
+curl ifconfig.co
+
+# Get the current wheater forecast in the terminal
+curl wttr.in
