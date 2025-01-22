@@ -1,4 +1,4 @@
-% Navi commands
+% navi
 
 # Initiate personal cheats repo
 git clone https://github.com/oahlen/cheats.git "$(navi info cheats-path)/oahlen__cheats"

@@ -1,0 +1,15 @@
+% misc
+
+# Run dos2unix over the current directory recursively
+fd . --type f --print0 | xargs -0 dos2unix
+
+# Find your external IP address
+curl ifconfig.co
+
+# Get the current weather forecast in the terminal
+curl wttr.in
+
+# Display markdown file
+lowdown -tterm <markdown_file> --term-columns 120 --term-hmargin 4 --term-vmargin 1 --term-shortlinks | less -R
+
+$ markdown_file: ls *.md

@@ -1,4 +1,4 @@
-% Sway commands
+% sway
 
 # Force full HD resolution on 4K laptop display
 swaymsg -- output eDP-1 mode --custom 1920x1200@59.997Hz scale 1
