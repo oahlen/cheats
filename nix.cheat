@@ -1,10 +1,10 @@
-% Nix commands
+% nix
 
 # Nix build a new generation
 nixos-rebuild switch --use-remote-sudo --flake .
 
 # Build a new generation with a specified hostname
-nixos-rebuild switch --use-remote-sudo --flake .#HOSTNAME
+nixos-rebuild switch --use-remote-sudo --flake .#<hostname>
 
 # Build a new generation and activate on next boot
 nixos-rebuild boot --use-remote-sudo --flake

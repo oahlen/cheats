@@ -3,6 +3,9 @@
 # Checkout branch
 git checkout <branch>
 
+# Switch remote branch
+git fetch --all && git checkout <remote_branch>
+
 # Checkout tag
 git checkout <tag>
 
@@ -12,5 +15,9 @@ git tag -a <tag> -m <message>
 # Prune all local branches except main
 git branch | grep -v 'main' | xargs git branch -D
 
+# Prune remote branches
+git fetch --prune
+
 $ branch: git branch | awk '{print $NF}'
+$ remote_branch: git branch -r | awk -F '/' '{print $2}'
 $ tag: git tag
