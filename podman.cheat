@@ -1,0 +1,9 @@
+% podman
+
+# List images
+podman images
+
+# Remove image
+podman image rm <image_id>
+
+$ image_id: podman images -n | awk '{print $3}'
