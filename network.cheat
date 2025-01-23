@@ -1,0 +1,4 @@
+% network
+
+# Find your external IP address
+curl ifconfig.co
