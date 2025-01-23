@@ -1,7 +1,7 @@
 % navi
 
 # Initiate personal cheats repo
-git clone https://github.com/oahlen/cheats.git "$(navi info cheats-path)/oahlen__cheats"
+git clone https://github.com/oahlen/cheats.git "$HOME/cheats"
 
 # Update personal cheats repo
-git -C "$(navi info cheats-path)/oahlen__cheats" pull
+git -C "$HOME/cheats" pull
