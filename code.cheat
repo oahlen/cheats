@@ -1,4 +1,0 @@
-% code
-
-# Run dos2unix over the current directory recursively
-fd . --type f --print0 | xargs -0 dos2unix
