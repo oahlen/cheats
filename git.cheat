@@ -12,6 +12,9 @@ git checkout <tag>
 # Create annotated tag with message
 git tag -a <tag> -m <message>
 
+# Push branch including tags
+git push --follow-tags
+
 # Prune all local branches except main
 git branch | grep -v 'main' | xargs git branch -D
 
