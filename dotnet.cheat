@@ -1,0 +1,19 @@
+% dotnet
+
+# Run project
+dotnet run --project src/<project> -- <args>
+
+# Test project
+dotnet test
+
+# Test project with filter
+dotnet test --filter "FullyQualifiedName<operator><class>"
+
+# Format code
+dotnet format
+
+# Verify code does not need formating
+dotnet format --verify-no-changes
+
+$ project: ls src/
+$ operator: echo "=" && echo "!" && echo "~"
