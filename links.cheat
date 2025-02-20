@@ -1,0 +1,13 @@
+% links
+
+# NixOS Search
+xdg-open https://search.nixos.org/packages
+
+# NixOS Wiki
+xdg-open https://wiki.nixos.org
+
+# Home Manager Manual
+xdg-open https://nix-community.github.io/home-manager
+
+# Home Manager Options
+xdg-open https://nix-community.github.io/home-manager/options.xhtml
