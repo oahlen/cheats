@@ -12,6 +12,9 @@ git checkout <tag>
 # Create annotated tag with message
 git tag -a <tag> -m <message>
 
+# Show tags and their messages
+git tag -n
+
 # Push branch including tags
 git push --follow-tags
 
