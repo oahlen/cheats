@@ -1,0 +1,4 @@
+% files
+
+# Print size of file in bytes
+du -b <file>
