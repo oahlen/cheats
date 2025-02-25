@@ -20,3 +20,6 @@ sudo nix-collect-garbage --delete-older-than 7d
 
 # Show nix store roots
 nix-store --gc --print-roots
+
+# Prefetch git repository
+nix-prefetch-git --url <url> --rev <revision>
