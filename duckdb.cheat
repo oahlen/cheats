@@ -1,0 +1,6 @@
+% duckdb
+
+# Read csv file into table
+CREATE TABLE my_table AS SELECT * FROM read_csv_auto('<csv_file>');
+
+$ csv_file: ls *.csv
